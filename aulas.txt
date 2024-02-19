@@ -1,0 +1,127 @@
+Green Team Hacker Club
+
+Curso Web Fundamentos
+ -> HTML, CSS e Javascript
+
+Conteúdos
+- HTML (do básico ao avançado)
+- CSS (do básico ao avançado)
+- Lógica de Programação com JS
+- Javascript (básico)
+
+Metodologia
+- Teoria
+- Prática
+- Exercícios ou Desafios
+
+-----------------------------------------------
+
+01. HTML Básico
+
+Primeiramente, é importante lembrar que o HTML é um linguagem de marcação!
+
+Tags HTML é uma etiqueta que marca um conteúdo e dá um significado à ele, acrescentando semântica, sendo que normalmente há a seguinte sintaxe:
+
+<nomeTag> ... conteudo ... </nomeTag>
+
+
+-> Títulos
+
+<h1>Meu título</h1>
+<h2>Meu subtítulo</h2>
+<h3>Meu sub subtítulo</h3>
+<h4>Subtítulo do h3</h4>
+<h5>Subtítulo do h4</h5>
+<h6>Subtítulo do h5</h6>
+
+
+-> Tags Alinhadas 
+
+Além disso, o HTML permite o uso de tags alinhadas, isto é, que sejam adicionadas tags dentro de outras tags, como por exemplo:
+
+<p> Texto com <i> itálico </i> aqui </p>
+
+É importante que haja uma ordem lógica nesse alinhamento, ou seja, as tagas precisam começar e terminar corretamente.
+
+
+-> Destaque em Textos:
+
+<i> itálico </i>
+<b> negrito </b>
+
+<em> itálico semântico </em>
+<strong> negrito semântico </strong>
+
+Explicando o uso das tags b (negrito), i(italico), strong(negrito semantico) ou em(italico semantico), temos a seguinte diferenciação entre elas:
+
+- A tag "strong" vai acrescentar a maior importância (semântica) dentro de um conteúdo
+
+- A tag "em" é a tag que vai dar uma ênfase ao conteúdo.
+
+- A tag "i" vai dar uma representação diferenciada na página.
+
+- A tag "b" é simplesmente visual e quando eu quero um negrito sem necessariamente dar a carga para o conteúdo.
+
+Outro tag desse tipo é o "mark", que elemento representa um trecho de destaque especial em um texto, por exemplo, uma sequência de texto marcado como referência, devido à sua relevância em um contexto particular
+
+<mark> destaque especial </mark>
+
+
+-> Listas
+
+--- Lista não ordenada = ul
+
+<ul>
+  --- Item de lista = li
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+--- Lista ordenada = ol
+<ol>
+  --- Item de lista = li
+  <li></li>
+  <li></li>
+  <li></li>
+</ol>
+
+
+-> Links
+
+Um elemento muito importante na web são os links, também chamados de âncoras que permitem que um conteudo se tornar "clicável" e quando o usuário clica, essa tag faz com que ele seja redirecionado à uma outra página.
+
+Esse elemento é representado pela "a" e para que o browser saiba qual será a página aberta quando o usuário clicar, utilizamos o atributo href desta tag.
+
+
+-> Tipos de Links
+
+<!-- Página externa:-->
+<a href="http://www....com.br">. </a>
+
+<!-- Página do mesmo diretório:-->
+<a href=”outraPagina.html"> . </a>
+
+<!-- Seção na mesma página:-->
+<a href=”#secao">. </a>
+
+<!-- Envio de email:-->
+<a href="mailto:alguem@server.com">. </a>
+
+
+-> Atributos
+
+Mas o que exatamente seriam esses atributos que adicionamos nas tags, como no exemplo anterior?
+
+Na prática, eles são como comandos ou informações específicas que damos a uma tag, para que o browser faça tal comando com algum detalhe ou variação específica, em relação a tag original.
+
+A sintaxe é a seguinte:
+<tag atributo1="valor" atributo2="valor2"> conteudo </tag>
+
+
+-> Quebras de Linhas
+
+<br>
+
+--A única diferença é que adiciona uma linha horizontal visual:
+<hr>
